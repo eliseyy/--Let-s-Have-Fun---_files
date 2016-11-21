@@ -196,7 +196,6 @@ article .familys-ul .family-mask{
     transition: all 0.3s 0s ease;
 }
 article .familys-ul li:hover .family-mask  {
-    color: #fff;
     background: rgba(0,0,0,0.5);
     transform: translateY(-100%);
 }
@@ -204,10 +203,12 @@ article .familys-ul .family-mask h3{
     font-size: 24px;
     margin: 15px 0;
     line-height: 33px;
+    color:#fff;
 }
 article .familys-ul .family-mask p{
     margin: 12px 0;
     text-align: justify;
+    color:#fff;
 }
 article .bbs{
     font-size: 1.5em;
