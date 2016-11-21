@@ -195,8 +195,9 @@ article .familys-ul .family-mask{
     line-height: 1.5;
     transition: all 0.3s 0s ease;
 }
-article .familys-ul a:hover {
+article .familys-ul li:hover .family-mask  {
     color: #fff;
+    background: rgba(0,0,0,0.5);
     transform: translateY(-100%);
 }
 article .familys-ul .family-mask h3{
